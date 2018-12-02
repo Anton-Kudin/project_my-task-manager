@@ -1,0 +1,100 @@
+/*Общие*/
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f9f9f9;
+	color:#5b5b5b;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ol{
+	margin: 0;
+	padding-left: 30px;
+}
+a{
+	color:#5b5b5b;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.display-4{
+	font-size: 3rem;
+}
+.has-error .help-block{
+	color:red;
+}
+.has-error input[aria-invalid="true"]{
+	border-color:red;
+}
+.main{
+	min-height:450px;
+}
+
+/*Задачи*/
+.day__task:last-child{
+	border-bottom: 0px solid black!important;
+}
+.oi-caret-right, .oi-media-pause{
+	font-size: 20px;
+}
+.oi-caret-right:hover, .oi-media-pause:hover{
+	color:#6c757d!important;
+}
+.day__control-btn{
+	cursor: pointer;
+}
+.day__control-btn:hover{
+	color:#28a745!important;
+}
+.day__control-btn.dropdown-toggle:after{
+	border:none;
+	margin-left: 0;
+	display: block;
+}
+.task__content-title{
+	cursor: pointer;
+}
+.task__content-title:hover{
+	cursor: pointer;
+	color:deepskyblue;
+}
+.task__content-title:hover .arrow{
+	border-right: 1px solid deepskyblue;
+	border-bottom: 1px solid deepskyblue;
+}
+.task__content-descr{
+	display: none;
+}
+
+.auth__paper{
+	border: 10px solid lightgray;
+}
+.registr__paper{
+	border: 10px solid lightgray;
+}
+.align-items-center{
+	position: relative;
+}
+
+.task__buttons .oi-timer{
+	margin-top: -5px;
+}
+.task__content .oi-arrow-bottom{
+	font-size: 10px;
+}
+
+.modal-flash{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: none;
+}
